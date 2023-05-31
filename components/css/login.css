@@ -1,0 +1,147 @@
+@charset "UTF-8";
+
+/* & IMPORT FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+/* * REST STARTING */
+
+* {
+
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    list-style-type: none;
+    text-decoration: none;
+    overflow: hidden;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+/* ~ PALLETS OF COLOR OF PROJECT */
+
+:root {
+
+    --bg-color-section: #121212e7;
+    --bg-color-section2: #1f1f1f;
+    --bg-color-circle: #e51e2a;
+    --bg-color-circle2: #fa848ce7;
+    --br-focus-imput: #6769fd;
+    --bg-color-icons-li: #222;
+
+    --color-navigation: #ffffff;
+    --bx-color-navigation-a: #585858;
+
+}
+
+body {
+
+    width: 100vw;
+    background-image: linear-gradient(to bottom, #000000, #080808, #0f0f0f, #0f0f0f, #111111, #1a1919, #131313ee);
+
+}
+
+.area-login {
+
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.area-login .login {
+
+    background-color: var(--bg-color-section2);
+    width: 366px;
+    height: 420px;
+    padding: 35px;
+    border-radius: 10px;
+    border: 2px solid var(--br-focus-imput);
+
+}
+
+.area-login .login .logo img {
+
+    max-width: 100%;
+    width: 225px;
+    margin-bottom: 15px;
+
+}
+
+.area-login .login .logo {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: var(--bx-color-navigation-a);
+    font-size: 1.2em;
+    padding-bottom: 10px;
+
+}
+
+.area-login .login form {
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.area-login .login form input {
+
+    margin-top: 20px;
+    padding: 5px;
+    border-radius: 3px;
+    background-color: var(--bx-color-navigation-a);
+    color: var(--color-navigation);
+    outline: none;
+
+}
+
+.area-login .login form input:focus {
+
+    border: 2px solid var(--br-focus-imput);
+
+}
+
+.area-login .login form input[type='submit'] {
+
+    font-size: 1em;
+    text-transform: uppercase;
+    box-shadow: 2px 3px 6px  var(--bg-color-section);
+    transition: all .3s ease-in-out;
+    margin-bottom: 30px;
+
+}
+
+.area-login .login form input[type='submit']:hover {
+
+    background-color: var(--br-focus-imput);
+    cursor: pointer;
+    transform: translateY(-5px);
+
+}
+
+.area-login .login form input::placeholder {
+
+    color: var(--color-navigation);
+    font-weight: 400;
+
+}
+
+.area-login .login p {
+
+    font-size: 12px;
+    color: var(--color-navigation);
+
+}
+
+.area-login .login a {
+
+    color: var(--br-focus-imput);
+    font-size: 17px;
+    transition: all .3s ease-in-out;
+
+}
