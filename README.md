@@ -1,4 +1,4 @@
-# Ecommerce da CocaCola 
+# Ecommerce da CocaCola
 <hr>
 
 ###### Veja a pagina inícial :
